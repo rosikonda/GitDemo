@@ -13,4 +13,27 @@ Then Home Page is populated
 And cards displayed are "false"
 --This is added during GIT Integration
 
+Scenario: Home page default login
+Given User is on NetBanking landing page
+When User login into the application with "cnu" and password "4321"
+Then Home Page is populated
+And cards displayed are "false"
+--This is added during GIT Integration
+
+Scenario: Home page default login
+Given User is on NetBanking landing page
+When User login into the application with "cnu" and password "4321"
+Then Home Page is populated
+And cards displayed are "false"
+--This is added during GIT Integration
+
+Scenario: Home page default login
+Given User is on NetBanking landing page
+When User login into the application with "cnu" and password "4321"
+Then Home Page is populated
+And cards displayed are "false"
+--This is added during GIT Integration
+
+
+
 
